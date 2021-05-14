@@ -1,0 +1,114 @@
+.content{
+    margin-left:25%;
+    margin-right:25%;
+    width: auto;
+    height: auto;
+    padding:10px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    /* border: 2px solid rgb(235, 98, 98); */
+   /* color: gray;
+    margin:10px;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none; */
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 98, 98);
+    box-sizing: border-box;
+     margin-bottom: 50px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block; */
+    float:left;
+    margin-left: 7.5%;
+    
+  }
+  
+  .btn {
+    /* border: 2px solid rgb(235, 98, 98); */
+    /* color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none; */
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgb(235, 98, 98);
+    margin-bottom: 50px;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+input[type=submit]{
+    /* border: 2px solid rgb(235, 98, 98);
+    color: rgb(8, 8, 8);
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold; */
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, rgb(238, 103, 103), rgb(247, 155, 155));
+    border: 0;
+    padding: 8px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 27px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    outline: none;
+
+}
+
+
+
+.header{
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    color :rgb(235, 98, 98);
+    margin-bottom: 2%;
+}
