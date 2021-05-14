@@ -32,15 +32,6 @@ include("functions.php");
 							echo "<a href='logout.php' class='drop'>  Logout  
 							
 							</a>";
-						// 	echo "<div class='dropdown'>
-						// 	<button class='dropbtn'>".$user_data['user_name']."</button>
-						// 	<div class='dropdown-content'>
-						// 	  <a href='#'>Link 1</a>
-						// 	  <a href='#'>Link 2</a>
-						// 	  <a href='#'>Link 3</a>
-						// 	</div>
-						//   </div>";
-							
 
 						} 
 						else {
